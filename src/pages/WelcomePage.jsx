@@ -4,11 +4,12 @@ const WelcomePage = () => {
     const navigate = useNavigate();
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-cover bg-center"
-            style={{
+        <div className="flex justify-center items-center min-h-screen bg-cover bg-center">
+            <div className="w-full max-w-md  px-6 pb-10 flex flex-col justify-end h-screen md:h-[90vh]  bg-[#f7f8f9] shadow-lg"
+             style={{
                 backgroundImage: "url('https://images.unsplash.com/photo-1620121692029-d088224ddc74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWJzdHJhY3QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww')"
-            }}>
-            <div className="w-full max-w-md  px-6 pb-10 flex flex-col justify-end h-screen md:h-[90vh]  bg-[#f7f8f9] shadow-lg">
+            }}
+            >
                 <div className="mt-auto mb-6">
                     <h1 className="text-2xl font-bold text-black">Welcome to PopX</h1>
                     <p className="mt-2 text-gray-500 text-md">
